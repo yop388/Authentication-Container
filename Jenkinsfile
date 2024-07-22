@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "othnielparfait/yoptestauthenticat"
+    dockerimagename = "othnielparfait/yoptestauthenticat-02"
     dockerImage = ""
   }
 
