@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: authenticat-app-container-02
-        image: othnielparfait/yoptestauthenticat:latest
+        image: othnielparfait/yoptestauthenticat-02:latest
         ports:
         - containerPort: 8001
