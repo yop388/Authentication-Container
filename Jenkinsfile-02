@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Cloner le dépôt') {
             steps {
-                git 'https://github.com/yop388/Authentication-Container.git'
+                git branch: 'main', url: 'https://github.com/yop388/Authentication-Container.git'
             }
         }
         stage('Construire l\'image Docker') {
