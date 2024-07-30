@@ -1,2 +1,5 @@
 .git
 Jenkinsfile
+deployment.yaml
+deploymentservice.yaml
+service.yaml

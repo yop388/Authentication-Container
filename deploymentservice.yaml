@@ -16,7 +16,7 @@ spec:
       - name: authenticat-app-container-02
         image: othnielparfait/yoptestauthenticat-02:latest
         ports:
-        - containerPort: 8001
+        - containerPort: 8000
 
 ---
 
@@ -29,6 +29,6 @@ spec:
     app: my-app
   ports:
     - protocol: TCP
-      port: 8001
-      targetPort: 8001
+      port: 8000
+      targetPort: 8000
   type: LoadBalancer
