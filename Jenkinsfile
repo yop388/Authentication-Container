@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Variables d'environnement
         AWS_ACCOUNT_ID = '381492291819'
-        AWS_DEFAULT_REGION = 'ca-central-1'
+        AWS_DEFAULT_REGION = 'us-east-1'
         ECR_REPOSITORY = 'public.ecr.aws/b3y8b3n1/authappecs'
         IMAGE_TAG = 'latest'
         ECS_CLUSTER_NAME = 'YopCluster01'
