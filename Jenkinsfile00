@@ -1,5 +1,6 @@
 pipeline {
-    agent {label  "jenkinsAgent"}
+    agent any
+    //agent {label  "jenkinsAgent"}
     environment {
         AWS_ACCOUNT_ID="381492291819"
         AWS_DEFAULT_REGION="ca-central-1"
@@ -28,9 +29,6 @@ pipeline {
         }
       }
      }
-    // Run container locally and perform tests
-
-
     // Uploading Docker image into AWS ECR
     stage('Releasing') {
      steps{  
