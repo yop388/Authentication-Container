@@ -3,7 +3,7 @@ pipeline {
  
     environment {
         // Variables d'environnement
-        AWS_ACCOUNT_ID = '381492291819'
+        AWS_ACCOUNT_ID = '38xxxxx'
         AWS_DEFAULT_REGION = 'ca-central-1'
         ECR_REPOSITORY = 'authappecs'
         IMAGE_TAG = 'latest'

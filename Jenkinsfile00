@@ -2,7 +2,7 @@ pipeline {
     agent any
     //agent {label  "jenkinsAgent"}
     environment {
-        AWS_ACCOUNT_ID="381492291819"
+        AWS_ACCOUNT_ID="38xxxxx"
         AWS_DEFAULT_REGION="ca-central-1"
 	    CLUSTER_NAME="YopCluster01"
 	    SERVICE_NAME="YopJKSService01"
