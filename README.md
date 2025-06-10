@@ -16,7 +16,7 @@ il faudrait disposer préalablement de :
 
     - Un service à l'intérieur du clusteur ECS
 
-    - Un serveur Ubuntu sur le quelle est installé :
+    - Un serveur Ubuntu sur lequel est installé :
         >> Jenkins
         >> docker-ce, docker-ce-cli, containerd.io, docker-buildx-plugin, docker-compose-plugin : 
             ~> lien d'installation pour Ubuntu : https://docs.docker.com/engine/install/ubuntu/#os-requirements
